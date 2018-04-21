@@ -3,4 +3,4 @@
 --require source-map-support/register
 --full-trace
 --bail
-calculator/ts/**/*.test.ts
+src/**/*_test.ts

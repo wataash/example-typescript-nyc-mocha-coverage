@@ -17,3 +17,21 @@ run:
     npm run coverage
 
 The coverage report should be available in `/coverage`.
+
+##### memo
+
+linux
+
+```fish
+#!fish
+while true; clear; clear; npm run coverage; inotifywait -e create -r src/; end
+```
+
+mac
+
+```fish
+#!fish
+fswatch -o ./src/ | while read a; echo $a; end
+# pkill fswatch 
+fswatch -o ./src/ | while read _; npm run coverage; end
+```

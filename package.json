@@ -36,10 +36,10 @@
   },
   "nyc": {
     "include": [
-      "calculator/ts/src/*.ts"
+      "src/**/*.ts"
     ],
     "exclude": [
-      "calculator/ts/**/*.test.ts"
+      "src/**/_test.ts"
     ],
     "extension": [
       ".ts"

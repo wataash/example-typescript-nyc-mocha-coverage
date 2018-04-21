@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import Subtract from '../src/Subtract';
+import Subtract from './Subtract';
 
 const sut = new Subtract();
 

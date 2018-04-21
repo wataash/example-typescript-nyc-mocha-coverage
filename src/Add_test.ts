@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import Add from '../src/Add';
+import Add from './Add';
 
 const sut = new Add();
 

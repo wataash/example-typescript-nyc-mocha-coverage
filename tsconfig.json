@@ -17,7 +17,7 @@
     "chai"         
   ],
   "include": [
-    "calculator/ts/**/*.ts"
+    "src/**/*.ts"
   ],
   "exclude": [
     "coverage",
